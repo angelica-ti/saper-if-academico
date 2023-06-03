@@ -1,0 +1,51 @@
+body{
+    background-color: #e7f1f0;
+}
+.container{
+    height: 500px;
+    background-color: white;
+}
+
+.col, [class*="col-"]{
+    /* border: 1px solid red; */
+    min-height: 100px;
+}
+
+.col:hover{
+    background-color: rgb(222, 220, 220);
+}
+h5{
+    display: inline;
+    color: black;
+    margin-left: 5px;
+}
+
+img{
+    text-align: center;
+    width: 4%;
+    margin-right: 1%;
+}
+.welcome{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: x-large;
+    margin-top: 3%;
+    text-align: center;
+}
+
+.notification-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.notification-badge {
+    position: absolute;
+    top: -10px;
+    right: 1px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 4px 6px;
+    font-size: 12px;
+}
